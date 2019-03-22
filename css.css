@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/home.jpg);
+    background-position: center;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+nav{
+    display: flex;
+    width: 75%;
+    margin: 0px;
+}
+
+.nav-item{
+    height: 25vw;
+    width: 25vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    max-height: 250px;
+    min-width: 200px;
+    max-width: 500px;
+
+}
+
+#contact {
+    background-image: url(images/contact.jpg);
+}
+
+#portfolio {
+    background-image: url(images/portfolio.jpg);
+}
+
+#about{
+    background-image: url(images/about%20me.jpg);
+}
+
+.nav-words{
+    display: flex;
+
+}
+
+
