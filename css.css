@@ -8,10 +8,12 @@ body{
     display:flex;
     align-items: flex-end;
     justify-content: flex-end;
+    background-repeat: no-repeat;
 }
 
 nav{
     display: flex;
+    align-content: flex-end;
     width: 75%;
     margin: 0px;
 }
@@ -22,11 +24,10 @@ nav{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 200px;
-    max-height: 250px;
-    min-width: 200px;
-    max-width: 500px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 300px;
 }
 
 #contact {
@@ -43,7 +44,22 @@ nav{
 
 .nav-words{
     display: flex;
-
+    justify-content: center;
+    font-family: 'Lato-light', sans-serif;
+    font-size: 39px;
 }
 
+#logo{
+    position: fixed;
+    width: 50%;
+    top: 10%;
+    left: 40px;
+}
 
+#logo-words{
+    color: white;
+    font-family: 'Lato-Light', sans-serif;
+    position: fixed;
+    top: 30%;
+    left: 15%;
+}
