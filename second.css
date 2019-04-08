@@ -1,6 +1,8 @@
 body{
     margin:0px;
     background-color: #3a3a3a;
+    display: flex;
+    flex-direction: column;
 }
 
 .grey{
@@ -34,7 +36,8 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Lato-light', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 li a:visited {
@@ -58,8 +61,40 @@ li a:visited {
 
 }
 
+#about-me-body{
 
+}
 
+#me-1{
+    display: flex;
+    align-items: flex-start;
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+    box-shadow: 15px 15px rgba(0,0,0,0.5);
+}
 
+#about-me-body{
+    display: flex;
+    align-items: center;
 
+}
+
+#me-2{
+    display: flex;
+    align-items: flex-end;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    box-shadow: 15px 15px rgba(0,0,0,0.5);
+}
+
+main{
+    display: flex;
+
+}
 

@@ -45,7 +45,8 @@ nav{
 .nav-words{
     display: flex;
     justify-content: center;
-    font-family: 'Lato-light', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 39px;
 }
 
