@@ -1,6 +1,5 @@
 body{
     margin: 0px;
-    background-color: black;
     width: 100vw;
     height: 100vh;
     background-image: url(images/home.jpg);
@@ -9,6 +8,7 @@ body{
     align-items: flex-end;
     justify-content: flex-end;
     background-repeat: no-repeat;
+    background-color: black;
 }
 
 nav{
@@ -27,7 +27,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 300px;
+    max-height: 250px;
 }
 
 #contact {
@@ -56,10 +56,6 @@ nav{
     left: 40px;
 }
 
-#logo-words{
+li a:visited{
     color: white;
-    font-family: 'Lato-Light', sans-serif;
-    position: fixed;
-    top: 30%;
-    left: 15%;
 }
