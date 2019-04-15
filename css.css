@@ -50,6 +50,10 @@ nav{
     font-size: 39px;
 }
 
+.nav-words a {
+    text-decoration: none;
+}
+
 #logo{
     position: fixed;
     width: 50%;
@@ -57,6 +61,6 @@ nav{
     left: 40px;
 }
 
-li a:visited{
-    color: white;
+p a:visited{
+    color: black;
 }
