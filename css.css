@@ -48,6 +48,9 @@ nav{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 39px;
+    transition-property: color;
+    transition-duration: .5s;
+    transition-delay: .1s;
 }
 
 .nav-words a {
@@ -69,6 +72,24 @@ a {
     color: black;
 }
 
+#contact:hover {
+    transition: background-image .5s;
+    background-image: url(images/contact-tran1.jpg);
+}
 
+#portfolio:hover {
+    transition: background-image .5s;
+    background-image: url(images/home2.jpg);
+}
 
+#about:hover {
+    transition: background-image .5s;
+    background-image: url(images/about-me-tran.JPG);
+}
+
+a:hover{
+    color: white;
+    transition-property: color;
+    transition-duration: .5s;
+}
 

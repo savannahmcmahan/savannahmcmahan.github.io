@@ -73,10 +73,8 @@ li a:visited {
     display: flex;
     align-items: flex-start;
     background-color: black;
-    min-width: 300px;
-    min-height: 200px;
-    max-height: 200px;
-    max-width: 300px;
+    width: 300px;
+    height: 200px;
     margin-left: 50px;
     margin-top: 10px;
     margin-right: 50px;
