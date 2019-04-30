@@ -112,9 +112,22 @@ h1{
     margin-left: 25%;
 }
 
-.portfolio-images{
-    width: 25%;
+#portfolio-images{
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
     padding: 10px;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.column{
+    width: 30%
 }
 
 a{
