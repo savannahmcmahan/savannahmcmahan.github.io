@@ -49,8 +49,11 @@ nav{
     font-weight: 300;
     font-size: 39px;
     transition-property: color;
-    transition-duration: .5s;
-    transition-delay: .1s;
+    -webkit-transition:.5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
 }
 
 .nav-words a {

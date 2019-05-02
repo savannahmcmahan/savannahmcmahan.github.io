@@ -1,5 +1,6 @@
 body{
     margin:0px;
+    padding: 0px;
     background-color: #3a3a3a;
     display: flex;
     flex-direction: column;
@@ -70,15 +71,17 @@ li a:visited {
 }
 
 #me-1{
+    width: 25%;
+    height: 25%;
+    margin: 20px;
+/*
     display: flex;
     align-items: flex-start;
     background-color: black;
-    width: 300px;
-    height: 200px;
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-right: 50px;
     box-shadow: 15px 15px rgba(0,0,0,0.5);
+    max-width: 25%;
+    height: auto;
+*/
 }
 
 #about-me-body{
@@ -90,22 +93,55 @@ li a:visited {
 }
 
 #me-2{
+    width: 25%;
+    height: 25%;
+    margin: 20px;
+/*
     display: flex;
     align-items: flex-end;
     background-color: black;
-    min-width: 200px;
-    min-height: 300px;
-    max-height: 300px;
-    max-width: 200px;
-    margin-left: 50px;
     margin-top: 10px;
     margin-right: 50px;
     box-shadow: 15px 15px rgba(0,0,0,0.5);
     float: left;
+*/
 }
 
 main{
     display: flex;
+}
+
+#about-me-line{
+    background-color: whitesmoke;
+    height: 100vw;
+    width: 25%;
+    z-index: 2;
+    padding: 20px;
+    position: relative;
+    top: 0;
+}
+
+#about-me-line-image{
+    width: 90%;
+    position: relative;
+    top: 4%;
+    padding: 4%;
+}
+
+.about-me-information{
+    width: 90%;
+    position: relative;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+}
+
+h3{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
 }
 
 h1{
