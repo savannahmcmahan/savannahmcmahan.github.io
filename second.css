@@ -134,3 +134,10 @@ a{
     color: white;
 }
 
+h2{
+    text-align: center;
+    margin: 0px;
+    font-family: 'lato', sans-serif;
+    color: white;
+    font-weight: 300;
+}
