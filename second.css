@@ -85,11 +85,11 @@ li a:visited {
 }
 
 #about-me-body{
-    display: flex;
-    align-items: center;
-    position: relative;
-    color: white;
+  color: white;
     font-family: 'lato', sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    width: 80%
 }
 
 #me-2{
@@ -119,6 +119,9 @@ main{
     padding: 20px;
     position: relative;
     top: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 80%;
 }
 
 #about-me-line-image{
@@ -176,4 +179,10 @@ h2{
     font-family: 'lato', sans-serif;
     color: white;
     font-weight: 300;
+}
+
+.about-me-titles{
+    background-color: black;
+    width: 40%;
+    padding:
 }
