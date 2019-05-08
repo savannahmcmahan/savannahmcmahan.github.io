@@ -186,3 +186,37 @@ h2{
     width: 40%;
     padding:
 }
+
+#skills-ps{
+    width: 155px;
+    height: 20px;
+    background-color: black;
+}
+
+#skills-id{
+    width: 160px;
+    height: 20px;
+    background-color: black;
+}
+
+#skills-html{
+    width: 150px;
+    height: 20px;
+    background-color: black;
+}
+
+.skills-box{
+    z-index: 1;
+    width: 170px;
+    height: 20px;
+    background-color: white;
+    border: solid black 2px;
+}
+
+
+
+
+
+
+
+
