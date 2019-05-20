@@ -1,5 +1,5 @@
 body{
-    margin:0px;
+    margin: 0px;
     padding: 0px;
     background-color: #3a3a3a;
     display: flex;
@@ -39,6 +39,7 @@ li {
     align-items: center;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    font-size: 24px;
 }
 
 li a {
@@ -139,7 +140,7 @@ h1{
     display: flex;
     align-content: flex-start;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .portfolio-container{
@@ -150,7 +151,7 @@ h1{
 }
 
 .column{
-    width: 30%
+    width: 30%;
 }
 
 a{
@@ -168,11 +169,10 @@ h2{
 .about-me-titles{
     background-color: black;
     width: 40%;
-    padding:
 }
 
 #skills-ps{
-    width: 88%;
+    width: 88.5%;
     height: 100%;
     background-color: black;
 }
@@ -198,10 +198,32 @@ h2{
 }
 
 @media only screen and (max-width:600px){
+
+
     .skills-box{
         width: 100px
     }
 
+    li{
+        font-size: 20px;
+    }
+
+    #portfolio-images{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 10px 0px;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+    .column{
+        width: 100vw;
+    }
 
 }
 
