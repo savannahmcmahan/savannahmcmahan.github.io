@@ -218,7 +218,7 @@ a:hover{
         background-color: black;
         display: flex;
         background-position: 125% 180%;
-        background-size: 1000px;
+        background-size: 900px;
     }
 
     #logo{
@@ -230,7 +230,7 @@ a:hover{
     }
 
     .nav-words{
-        font-size: 19px;
+        font-size: 15px;
 
     }
 
